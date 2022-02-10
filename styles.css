@@ -1,4 +1,24 @@
+/*
+ #2196f3; синий
+ #000000 черный
+ #212121 шапка
+ #757575 номер тел
+ #2F303A main
+ #F5F4FA наша команда
+ background: #FFFFFF99; емеил и номер внизу
+
+ 
+Raleway 700
+Roboto 500
+
+ */
+
 body {
   background-color: #fff;
   color: #2a2a2a;
+  font-family: Roboto, sans-serif;
+}
+
+.main-web {
+  font-family: Raleway, sans-serif;
 }
