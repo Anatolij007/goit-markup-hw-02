@@ -13,6 +13,7 @@ body {
   background-color: #fff;
   color: #212121;
   font-family: Roboto, sans-serif;
+  font-size: 14px;
 }
 
 .main-web {
@@ -46,6 +47,15 @@ body {
 .service {
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
+}
+.service:hover,
+.service:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+.ours-works {
+  cursor: pointer;
 }
 .ours-works:hover,
 .ours-works:focus {
@@ -67,6 +77,14 @@ body {
 .link-footer-text {
   color: #ffffff;
 }
+.link-footer-text:hover,
+.link-footer-text:focus {
+  color: #2196f3;
+}
 .ours-teams {
   background-color: #f5f4fa;
+}
+.link-footer:hover,
+.link-footer:focus {
+  color: #2196f3;
 }
