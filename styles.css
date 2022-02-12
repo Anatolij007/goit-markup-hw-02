@@ -77,6 +77,12 @@ body {
   background-color: #188ce8;
 }
 .ours-works {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .ours-works:hover,
@@ -100,11 +106,21 @@ body {
 .nav-item,
 .link-info {
   font-family: var(--main-font);
+  color: var(--grey-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.link {
+  font-family: var(--main-font);
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .plain {
   font-family: var(--main-font);
   font-weight: 700;
@@ -128,6 +144,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .plain-text {
   color: var(--grey-text);
@@ -136,9 +153,11 @@ body {
   font-size: 16px;
   line-height: 1.8x;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .link-footer {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -147,6 +166,7 @@ body {
 }
 .link-footer-text {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
@@ -173,6 +193,7 @@ body {
 }
 .im-li-foun {
   font-family: var(--main-font);
+  color: var(--black-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
